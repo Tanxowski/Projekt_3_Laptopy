@@ -4,6 +4,12 @@ body {
 	font-weight: 400;
 	font-style: normal;
 }
+#header {
+	text-align: center;
+	background-color: #E2FFF4;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
 table {
 	border-collapse: collapse;
 	border-color: #131B2B;
@@ -15,9 +21,19 @@ th {
 td {
 	padding: 12px;
 }
+td:nth-of-type(1) {
+	font-weight: bold;
+}
 .wybor {
-	color: #5B91A3;
+	color: white;
 	background-color: #2F4A63;
 	font-weight: bolder;
 	padding: 3px 5px 3px 5px;
+	border-radius: 7px;
+}
+#footer {
+	text-align: center;
+	background-color: #E2FFF4;
+	padding-top: 2px;
+	padding-bottom: 2px;
 }
