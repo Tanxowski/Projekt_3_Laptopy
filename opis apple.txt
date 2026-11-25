@@ -1,0 +1,16 @@
+Apple:
+-mały wyświetlacz
+-najlepszy wyświetlacz;
+-mniejsza częstotliwość odświeżania
+-najlepsza rozdzielczość
+-brak dedykowanej karty graficznej 
+-najdroższy w kategorii podzespoły/cena;
+-macos, łatwe połączenie z telefonem apple
+-największa pamięć dyskowa 
+-najdłuższa praca na baterii 
+
+Apple MacBook Pro M6 to najnowsza propozycja laptopa o wysokiej wydajności od Apple. Model z pamięcią RAM 32GB i dyskiem o pojemności 2TB dostępny jest w cenie 14999zł. Jest to najdroższe urządzenie spośród wymienionej konkurencji, jednak oferuje on najlepszy wyświetlacz spośród podanych, opracowany przez Apple Liquid Retina XDR o rozdzielczości 3024 x 1964, który może lepiej odwzorować szczegóły obrazów o wyższej rozdzielczości, jest to przydatna cecha przy pracy nad grafiką 2D.Wyświetlacz, choć o najmniejszej przekątnej spośród podanych, lepiej spisuje się w warunkach codziennych, gdzie liczy się
+swoboda przenoszenia. 
+
+ 
+
