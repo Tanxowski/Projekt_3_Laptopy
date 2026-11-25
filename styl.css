@@ -14,7 +14,7 @@ table {
 	border-collapse: collapse;
 	border-color: #131B2B;
 	border-width: 3px;
-	
+
 	width: 100%;
 }
 th {
@@ -60,9 +60,197 @@ td:nth-of-type(1) {
 	height: 463px;
 	font-size: 100px;
 }
+#referat {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#text-container {
+    width: 80%;
+    max-width: 800px;
+
+    margin: 40px auto;
+
+    color:slateblue;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+
+    white-space: pre-wrap;
+}
+
 #footer {
 	text-align: center;
 	background-color: #E2FFF4;
 	padding-top: 2px;
 	padding-bottom: 2px;
 }
+
+/*WEE-WOO AI kod tutaj, uzyty tylko do guzika */
+
+/*
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #181818;
+    min-height: 100vh;
+}
+
+main {
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+*/
+
+/* Main button housing */
+.big-red-button {
+    position: relative;
+
+    width: min(33vw, 380px);
+    min-width: 220px;
+    aspect-ratio: 1.5 / 1;
+
+    border: none;
+    border-radius: 35%;
+
+    cursor: pointer;
+
+    background: linear-gradient(
+        145deg,
+        #eeeeee,
+        #a6a6a6 45%,
+        #f5f5f5 75%,
+        #777777
+    );
+
+    box-shadow:
+        0 14px 20px rgba(0, 0, 0, 0.5),
+        inset 0 5px 8px rgba(255, 255, 255, 0.9),
+        inset 0 -5px 8px rgba(0, 0, 0, 0.25);
+
+    transition: transform 0.15s ease;
+}
+
+/* Stationary metallic base */
+.big-red-button {
+    position: relative;
+
+    width: min(33vw, 380px);
+    aspect-ratio: 1 / 1;
+
+    border: none;
+    border-radius: 50%;
+
+    background: linear-gradient(
+        145deg,
+        #ffffff,
+        #c5c5c5 35%,
+        #858585 65%,
+        #eeeeee 85%,
+        #777777
+    );
+
+    box-shadow:
+        0 15px 25px rgba(0, 0, 0, 0.5),
+        inset 0 5px 12px rgba(255, 255, 255, 0.9),
+        inset 0 -6px 12px rgba(0, 0, 0, 0.3);
+
+    cursor: pointer;
+}
+
+/* Moving red surface */
+.button-face {
+    position: absolute;
+
+    inset: 9%;
+
+    border-radius: 50%;
+
+    background: linear-gradient(
+        155deg,
+        #ff5555 0%,
+        #ed1717 35%,
+        #c90000 75%,
+        #8d0000 100%
+    );
+
+    box-shadow:
+        0 12px 0 #790000,
+        inset 0 6px 10px rgba(255, 255, 255, 0.45),
+        inset 0 -10px 15px rgba(80, 0, 0, 0.35);
+
+    transition:
+        transform 0.16s ease,
+        box-shadow 0.16s ease,
+        filter 0.2s ease;
+}
+
+/* Glossy reflection */
+.button-face::before {
+    content: "";
+
+    position: absolute;
+
+    top: 8%;
+    left: 12%;
+
+    width: 76%;
+    height: 32%;
+
+    border-radius: 50%;
+
+    background: linear-gradient(
+        180deg,
+        rgba(255, 255, 255, 0.45),
+        rgba(255, 255, 255, 0)
+    );
+
+    filter: blur(6px);
+}
+
+/* Hover: only the red surface moves */
+.big-red-button:hover .button-face {
+    transform: translateY(-4px);
+    filter: brightness(1.12);
+}
+
+/* Press: only the red surface moves down */
+.big-red-button:active .button-face {
+    transform: translateY(9px);
+
+    box-shadow:
+        0 2px 0 #790000,
+        inset 0 6px 10px rgba(255, 255, 255, 0.35),
+        inset 0 -8px 12px rgba(80, 0, 0, 0.4);
+
+    filter: brightness(0.95);
+}
+
+/* Keyboard accessibility */
+.big-red-button:focus-visible {
+    outline: 3px solid white;
+    outline-offset: 10px;
+}
+
+/* Responsive sizing */
+@media (max-width: 600px) {
+    .big-red-button {
+        width: 70vw;
+    }
+}
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+    .button-face {
+        transition: none;
+    }
+}
+
+/*Tutaj konczy sie AI kod WEE-WOO*/
