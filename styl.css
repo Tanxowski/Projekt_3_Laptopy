@@ -14,6 +14,8 @@ table {
 	border-collapse: collapse;
 	border-color: #131B2B;
 	border-width: 3px;
+	
+	width: 100%;
 }
 th {
 	padding: 12px 0px 12px 0px;
@@ -30,6 +32,33 @@ td:nth-of-type(1) {
 	font-weight: bolder;
 	padding: 3px 5px 3px 5px;
 	border-radius: 7px;
+}
+#kontener_podium {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+#podium {
+	border-collapse: collapse;
+	border-width: 0;
+	text-align: center;
+}
+#podium.td {
+	padding: 15px;
+}
+.szary {
+	background-color: lightgray;
+	border-right: 1px black solid;
+	border-left: 1px black solid;
+	height: 463px;
+}
+.szary-top {
+	background-color: lightgray;
+	border-right: 1px black solid;
+	border-left: 1px black solid;
+	border-top: 1px black solid;
+	height: 463px;
+	font-size: 100px;
 }
 #footer {
 	text-align: center;
