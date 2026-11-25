@@ -1,0 +1,11 @@
+procesor: Intel i5 14500
+RAM: 32GB DDR4
+Dysk: Lexar SSD NM710 1TB
+Integra: Intel UHD Graphics 770
+Karta graficzna: NVIDIA GeForce RTX 3060
+Płyta główna: MSI PRO B760-P DDR4 II
+Klawiatura: Logitech K120
+Monitor: IIyama Black Hawk G Master G2445HSU
+Mysz: Logitech M90
+
+
