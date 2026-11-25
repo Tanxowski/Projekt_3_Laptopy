@@ -4,7 +4,7 @@ Aplum:
 przekątna 14.2"
 częstotliwość 120hz
 jasność 1000cd/m2
-
+typ ekranu: Błyszczący, mini-LED, Liquid Retina XDR
 
 asus
 
@@ -12,6 +12,7 @@ asus
 przekątna 18"
 240 Hz
 500 cd/m²
+typ ekranu: Matowy, LED, IPS
 
 
 HyperX OMEN
@@ -20,3 +21,4 @@ HyperX OMEN
 16"
 240 Hz
 500 cd/m²
+typ ekranu: Matowy, LED, IPS
